@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #808080;
+      }
+
+      .navigation {
+        overflow: hidden;
+        background-color: #404040;
+        display: flex;
+        justify-content: center;
+      }
+
+      .navigation a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 10px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .navigation a:hover {
+        color: #66b2ff;
+        text-decoration: underline;
+      }
+      .CVtekst {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+      }
+      .tekst {
+        width: 40%;
+        padding: 20px;
+        background-color: #404040;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .CVtekst h1 {
+        color: #f2f2f2;
+      }
+      .CVtekst h2 {
+        color: #f2f2f2;
+        text-align: center;
+        text-decoration: underline;
+      }
+      .CVtekst h3 {
+        color: #66b2ff;
+        text-decoration: underline;
+      }
+      .CVtekst h4 {
+        color: #f2f2f2;
+        margin: 5px;
+      }
+      .CVtekst ul {
+        color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navigation" id="navigation-head">
+      <a href="index.html" class="active">Home</a>
+      <a href="CV.html">CV</a>
+      <a href="ervaring.html">Ervaring</a>
+      <a href="interesses.html">Interesses</a>
+      <a href="contact.html">Contact</a>
+      <a href="#" class="icon" onclick="toggleResponsiveClass()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+    <div class="CVtekst">
+      <h1>mijn CV</h1>
+      <div class="tekst">
+        <h2>Quinten Moons</h2>
+        <h3>werkervaring</h3>
+        <h4>
+          Augustus 2023 - juli 2024 TECHNISCHE DIENST • STEINERSCHOOL LIER
+        </h4>
+        <h4>Januari 2022- mei 2022 ELEKTRICITEIT • GEENS.EL.CO</h4>
+
+        <h3>opleiding</h3>
+        <h4>secundair</h4>
+        <ul>
+          <li>Diploma in netwerken</li>
+          <li>Diploma in pc installatie en configuratie</li>
+          <li>Diploma in ICT veiligheid en privacy</li>
+        </ul>
+
+        <h4>hoger onderwijs</h4>
+        <ul>
+          <li>Graduaat in Programmeren (1ste jaar).</li>
+        </ul>
+
+        <h3>communicatie</h3>
+        <ul>
+          <li>Mijn moedertaal is Nederlands, ik spreek ook Engels.</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

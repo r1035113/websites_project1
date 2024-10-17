@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #808080;
+           
+        }
+        .navigation {
+            overflow: hidden;
+            background-color: #404040;
+            display: flex;
+            justify-content: center;
+           
+        }
+        .navigation a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 10px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .navigation a:hover {
+            color: #66b2ff;
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+        .afbeelding {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .afbeelding img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+        .interesses {
+            padding: 20px;
+            background-color: #404040;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            margin: 0 20px;
+        }
+        .interesses h1 {
+            color: #f2f2f2;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .interesses h3 {
+            color: #66b2ff;
+            text-decoration: underline;
+        }
+        .interesses p {
+            color: #f2f2f2;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation" id="navigation-head">
+        <a href="index.html" class="active">Home</a>
+        <a href="CV.html">CV</a>
+        <a href="ervaring.html">Ervaring</a>
+        <a href="interesses.html">Interesses</a>
+        <a href="contact.html">Contact</a>
+        <a href="#" class="icon" onclick="toggleResponsiveClass()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <div class="container">
+        <div class="afbeelding">
+            <img src="img/porsche-museum.jpg" alt="porsche-museum">
+            <img src="img/porta_nigra.jpg" alt="porta nigra">
+            <img src="img/tekening1.jpg" alt="basketspeler">
+        </div>
+        <div class="interesses">
+            <h1>Interesses</h1>
+            <p>
+                Ik ben iemand die altijd graag bezig is met bijleren en nieuwe dingen ontdekken. Mijn interesses zijn breed, omdat ik ervan hou om van alle markten thuis te zijn. Dit heeft ervoor gezorgd dat ik vaak op zoek ga naar nieuwe ervaringen en kennis, vooral op het gebied van cultuur, geschiedenis, natuur, en kunst. Daarom breng ik graag een bezoek aan verschillende musea. Zo heb ik bijvoorbeeld het Porsche Museum in Stuttgart bezocht, waar ik mijn liefde voor auto’s en techniek verder heb kunnen voeden. Daarnaast was mijn bezoek aan het microbiologisch museum Micropia in Amsterdam een totaal andere maar zeer fascinerende ervaring.
+            </p>
+            <h3>Cultuur & Geschiedenis</h3>
+            <p>
+                Ook historische gebouwen trekken vaak mijn aandacht, vooral bouwwerken uit de Romeinse tijd. Zo heb ik al een bezoek gebracht aan de Porta Nigra in Trier en de Tempel van Apollo in Side, Turkije. De architectuur uit de Romeinse tijd blijft me altijd verbazen. Ik zou graag eens een bezoek brengen aan het iconische Colosseum in Rome en de ruïnes van Pompeï. Vanwege hun indrukwekkende structuren en de rijke geschiedenis erachter. De verhalen over gladiatoren, vulkaanuitbarstingen en het dagelijkse leven in de oudheid boeien me enorm.
+            </p>
+            <h3>Fietsen & Ontspanning</h3>
+            <p>
+                Naast mijn passie voor cultuur en geschiedenis, besteed ik mijn vrije tijd ook graag aan sportieve en creatieve activiteiten. Fietsen is een van mijn favoriete bezigheden wanneer ik tijd heb. Ik doe dit zowel op de weg als off-road met mijn mountainbike. Het is voor mij een manier om te ontspannen en mijn hoofd leeg te maken, daarom doe ik dit meestal alleen.
+            </p>
+            <h3>Creativiteit & Tekenen</h3>
+            <p>
+                Tekenen is ook een bezigheid van me. Ik gebruik een speciale pen op mijn tablet om digitale tekeningen te maken. Dit geeft me de mogelijkheid om mijn verbeelding los te laten gaan. Ik experimenteer graag met verschillende stijlen en technieken.
+            </p>
+            <h3>Dieren & Natuur</h3>
+            <p>
+                Naast al deze activiteiten zet ik mij ook in voor de natuur. Elk jaar in februari help ik mee met het overzetten van padden tijdens hun trektocht naar hun broedgebieden. Ik vind het belangrijk om mijn steentje bij te dragen voor de natuur. Het is een kleine moeite, maar het geeft me veel voldoening om te weten dat ik iets positiefs kan doen voor het milieu en de dierenwereld.
+            </p>
+        </div>
+        <div class="afbeelding">
+            <img src="img/porsche_in.jpg" alt="binnekant porsche-museum">
+            <img src="img/Side-Apollo-Temple-3.jpg" alt="Side-Apollo-Temple">
+            <img src="img/tekening2.jpg" alt="tekening meisje">
+        </div>
+    </div>
+ 
+</body>
+</html>

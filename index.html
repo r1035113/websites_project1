@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #808080;
+      
+      }
+
+      .navigation {
+        overflow: hidden;
+        background-color: #404040;
+        display: flex;
+        justify-content: center;
+      }
+
+      .navigation a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 10px;
+        text-decoration: none;
+        font-size: 17px;
+        
+      }
+      .navigation a:hover {
+        color: #66b2ff;
+        text-decoration: underline;
+      }
+      .welkom {
+        text-align: center;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            flex-direction: column;
+      }
+      .welkom h1 {
+        text-align: center;
+        font-size: 3em;
+        color: #f2f2f2;
+      }
+      .welkom p {
+        color: #f2f2f2;
+        margin-top: 20px;
+      }
+      .welkom img{
+        width: 250px;
+            height: 250px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            object-fit: cover;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <nav class="navigation" id="navigation-head">
+      <a href="index.html" class="active">Home</a>
+      <a href="CV.html">CV</a>
+      <a href="ervaring.html">Ervaring</a>
+      <a href="interesses.html">Interesses</a>
+      <a href="contact.html">Contact</a>
+      <a href="#" class="icon" onclick="toggleResponsiveClass()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
+    <div class="welkom">
+      <h1>WELKOM!</h1>
+      <p>Ik ben quinten moons, hard- en software computer specialist.</p>
+      <img src="img/FRD_0664.jpg" />
+    </div>
+  </body>
+</html>
